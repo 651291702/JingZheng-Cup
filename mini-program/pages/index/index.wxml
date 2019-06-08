@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="wholepage">
+  <view class="firestyle">
+    <image src='../../image/fire.png' mode="widthFixed"></image>
+    <div class="titlestyle">Van Got!</div>
+  </view>
+  <view class="leafstyle">
+    <image src="../../image/background2.png" class="picstyle"></image>
+    <button class="buttonclass" bindtap='start' disabled='{{disable}}'>{{tip}}</button>
+  </view>
+  <image class='load' src='{{src}}' bindload='loadImg'></image>
+</view>
